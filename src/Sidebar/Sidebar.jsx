@@ -14,7 +14,7 @@ function Sidebar() {
             </p>
         </div>
         <div className="sidebar-item">
-            <span className="sidebar-title">Posts</span>
+            <span className="sidebar-title">Posty</span>
             <ul className="sidebar-list">
                 <li className="sidebar-list-item">Post 1</li>
                 <li className="sidebar-list-item">Post 2</li>
@@ -29,12 +29,22 @@ function Sidebar() {
             </ul>
         </div>
         <div className="sidebar-item">
-            <span className="sidebar-title">Social media / Contact</span>
+            <span className="sidebar-title">Social media / Kontakt</span>
             <div className="sidebar-social">
                 <i className="sidebarIcon fa-brands fa-youtube"></i>
                 <i className="sidebarIcon fa-brands fa-telegram"></i>
                 <i className="sidebarIcon fa-brands fa-facebook"></i>
             </div>
+        </div>
+        <div className="sidebar-item">
+            <span className="sidebar-title">Lista twórców i osób pomagających budować TechNews</span>
+            <ul className="sidebar-list">
+                <li className="sidebar-list-item2">Twórca: Patryk "Whisky/PTFOPlayer"</li>
+                <li className="sidebar-list-item2">Piszący: Patryk "Whisky/PTFOPlayer"</li>
+                <li className="sidebar-list-item2" style={{"margin-top": 15}}>Telegram: Michał "Wloseczeq"</li>
+                <li className="sidebar-list-item2" style={{"margin-top": 15}}>Sprawdzanie poprawności i gramatyki:</li>
+                <li className="sidebar-list-item2">Martyna "Maritrza"</li>
+            </ul>
         </div>
     </div>
   )

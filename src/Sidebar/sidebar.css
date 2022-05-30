@@ -10,6 +10,7 @@
 }
 
 p {
+    margin: 10px;
     color: #fff;
 }
 
@@ -36,12 +37,15 @@ p {
 
 .sidebar-list {
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 26px;
     padding: 0;
     list-style: none;
+}
+
+.sidebar-list-item{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
 }
 
 .sidebarIcon{
@@ -57,4 +61,5 @@ p {
     justify-content: center;
     align-items: center;
     display: inline-flex;
+    
 }
