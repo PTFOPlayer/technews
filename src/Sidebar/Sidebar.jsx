@@ -5,11 +5,12 @@ function Sidebar() {
   return (
     <div className="sidebar">
         <div className="sidebar-item">
-            <span className="sidebar-title">About TechNews</span>
+            <span className="sidebar-title">O TechNews</span>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Nulla eaque distinctio accusantium, quibusdam vero ipsum nemo aut aperiam odio 
-                nesciunt perferendis adipisci quis ex nobis tempore quae ut! Molestias, temporibus!
+                TechNews to blog o nowinkach technologicznych i przeciekach. Skupiamy się na pisaniu o tematach z branży PC
+                które są w zasięgu ręki każdego entuzjasty komputerowego, oraz staramy się przybliżyć tematy 
+                które są bardziej odległe międziy innymi, świat SBC i innych minikomputerów, świat serwerów i świat 
+                wyspecjalizowanych stacji komputerowych oraz super komputerów.
             </p>
         </div>
         <div className="sidebar-item">
