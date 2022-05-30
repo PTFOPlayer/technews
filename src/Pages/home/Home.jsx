@@ -17,11 +17,13 @@ function Home() {
             <Posts />
         </div>
       </BrowserView>
+
       <MobileView>
         <Header />
         <div className="home">
             <Posts />
         </div>
+        <sidebar />
       </MobileView>
     </>
   )
