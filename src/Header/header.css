@@ -1,0 +1,19 @@
+:root {
+    --top-margins: 30px
+}
+
+.header{
+    margin-top: var(--top-margins);
+}
+
+.header-tiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #444;
+}
+
+.header-title {
+    font-size: 100px;
+}
