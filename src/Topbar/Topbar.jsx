@@ -25,20 +25,20 @@ function Topbar()
                 </div>
             </BrowserView>
             <MobileView>
-                <div className="top" style={{"display" : "block", "height" : 120, "margin-top" : 10}}>
-                    <div className="top-left">
+                <div className="top" style={{"display" : "block", "height" : 120}}>
+                    <div className="top-left" style={{"margin-top" : 10}}>
                         <i className="topIcon fa-brands fa-youtube"></i>
                         <i className="topIcon fa-brands fa-telegram"></i>
                         <i className="topIcon fa-brands fa-facebook"></i>
                     </div>
-                    <div className="top-center">
+                    <div className="top-center" style={{"margin-top" : 10}}>
                         <ul className="top-list">
                             <li className="top-list-item">HOME</li>
                             <li className="top-list-item">ABOUT</li>
                             <li className="top-list-item">CONTACT</li>
                         </ul>
                     </div>
-                    <div className="top-right">
+                    <div className="top-right" style={{"margin-top" : 10}}>
                         <i className="topIcon fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
