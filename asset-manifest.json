@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/w3/static/css/main.6b4bd454.css",
-    "main.js": "/w3/static/js/main.ac30f9c3.js",
+    "main.js": "/w3/static/js/main.97d5ef6f.js",
     "static/media/pobrane.png": "/w3/static/media/pobrane.1b736367f95c91462292.png",
     "index.html": "/w3/index.html",
     "main.6b4bd454.css.map": "/w3/static/css/main.6b4bd454.css.map",
-    "main.ac30f9c3.js.map": "/w3/static/js/main.ac30f9c3.js.map"
+    "main.97d5ef6f.js.map": "/w3/static/js/main.97d5ef6f.js.map"
   },
   "entrypoints": [
     "static/css/main.6b4bd454.css",
-    "static/js/main.ac30f9c3.js"
+    "static/js/main.97d5ef6f.js"
   ]
 }
