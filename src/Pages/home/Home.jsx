@@ -23,7 +23,7 @@ function Home() {
         <div className="home">
             <Posts />
         </div>
-        <sidebar />
+        <Sidebar />
       </MobileView>
     </>
   )
