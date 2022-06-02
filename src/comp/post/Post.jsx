@@ -15,7 +15,7 @@ function Post() {
                 <span className="post-cat">News</span>
             </div>
             <a style = {{"textDecoration": "none"}}className="post-title" href="https://ptfoplayer.github.io/w3/#/post/1" >
-                <spam className = "post-title">
+                <spam style = {{"textDecoration": "none"}} className = "post-title">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </spam>
             </a>
