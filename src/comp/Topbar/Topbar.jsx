@@ -13,7 +13,7 @@ function Topbar()
                     </div>
                     <div className="top-center">
                         <ul className="top-list">
-                            <li className="top-list-item"><a href ='/home' className="inherit">Główna</a></li>
+                            <li className="top-list-item"><a href ='/w3/home' className="inherit">Główna</a></li>
                             <li className="top-list-item">O nas</li>
                             <li className="top-list-item">Kontakt</li>
                         </ul>

@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Topbar />
       <Switch>
-        <Route exact path="/home" >   <Home/>    </Route>
+        <Route exact path="/w3/home" >   <Home/>    </Route>
         <Route path="/post/:id">  <SinglePostPage />  </Route>
       </Switch>
     </Router>
