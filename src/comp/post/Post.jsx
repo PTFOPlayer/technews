@@ -3,17 +3,21 @@ import "./post.css"
 function Post() {
   return (
     <div className="post">
+        <a href="https://ptfoplayer.github.io/w3/#/post/1">
         <img className="post-image"
             src={require("./pobrane.png")}
             alt=""
         />
+        </a>
         <div className="post-info">
             <div className="post-cats">
                 <span className="post-cat">Leak</span>
                 <span className="post-cat">News</span>
             </div>
             <a className="post-title" href="https://ptfoplayer.github.io/w3/#/post/1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <spam className = "post-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </spam>
             </a>
             <hr />
             <span className="post-date">
