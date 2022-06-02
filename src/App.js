@@ -4,7 +4,7 @@ import Topbar from "./comp/Topbar/Topbar";
 import SinglePostPage from "./Pages/SinglePostPage/SinglePostPage";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
