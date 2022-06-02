@@ -12,9 +12,9 @@ function Post() {
                 <span className="post-cat">Leak</span>
                 <span className="post-cat">News</span>
             </div>
-            <span className="post-title">
+            <a className="post-title" href="https://ptfoplayer.github.io/w3/#/post/1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+            </a>
             <hr />
             <span className="post-date">
                 January 1, 2020
