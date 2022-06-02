@@ -13,7 +13,7 @@ function Topbar()
                     </div>
                     <div className="top-center">
                         <ul className="top-list">
-                            <li className="top-list-item"><a href ='/home' className="inherit">Główna</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/w3/#/home' className="inherit">Główna</a></li>
                             <li className="top-list-item">O nas</li>
                             <li className="top-list-item">Kontakt</li>
                         </ul>
@@ -27,7 +27,7 @@ function Topbar()
 
                     <div className="top-center" style={{"margin-top" : 10}}>
                         <ul className="top-list">
-                            <li className="top-list-item"><a href ='/home' className="inherit">Główna</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/w3/#/home' className="inherit">Główna</a></li>
                             <li className="top-list-item">O nas</li>
                             <li className="top-list-item">Kontakt</li>
                         </ul>
