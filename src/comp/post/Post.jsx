@@ -49,7 +49,7 @@ function Post() {
             </div>
         </BrowserView>
         <MobileView>
-        <div className="post" style={{"width" : "100%"}}>
+        <div className="post" style={{"width" : "100%", "margin": "25px"}}>
                 <a href="https://ptfoplayer.github.io/w3/#/post/1">
                 <img className="post-image"
                     src={require("./pobrane.png")}
