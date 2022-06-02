@@ -1,9 +1,9 @@
 import React from 'react'
 import {BrowserView, MobileView} from 'react-device-detect';
 import "./home.css"
-import Header from '../../Header/Header'
-import Posts from '../../Posts/Posts'
-import Sidebar from '../../Sidebar/Sidebar'
+import Header from '../../comp/Header/Header'
+import Posts from '../../comp/Posts/Posts'
+import Sidebar from '../../comp/Sidebar/Sidebar'
 
 
 function Home() {

@@ -1,6 +1,6 @@
 .post {
     width: 390px;
-    margin: -px 25px 40px 25px;
+    margin: 0px 25px 40px 25px;
 }
 
 .post-image {
@@ -39,4 +39,17 @@
     font-size: 14px;
     line-height: 20px;
     margin-top: 15px;
+}
+
+.post-desc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #272323;
+    line-height: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
