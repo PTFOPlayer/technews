@@ -9,7 +9,9 @@ function Topbar()
             <BrowserView>
                 <div className="top">
                     <div className="top-left">
-                        <i className="topIcon fa-brands fa-telegram"></i>
+                        <a href="https://t.me/+NjkWUOdpxWY3ODU8">
+                            <i className="topIcon fa-brands fa-telegram"></i>
+                        </a>
                     </div>
                     <div className="top-center">
                         <ul className="top-list">

@@ -31,9 +31,9 @@ function Sidebar() {
             <div className="sidebar-item">
                 <span className="sidebar-title">Social media / Kontakt</span>
                 <div className="sidebar-social">
-                    <i className="sidebarIcon fa-brands fa-youtube"></i>
+                    <a href="https://t.me/+NjkWUOdpxWY3ODU8">
                     <i className="sidebarIcon fa-brands fa-telegram"></i>
-                    <i className="sidebarIcon fa-brands fa-facebook"></i>
+                    </a>
                 </div>
             </div>
             <div className="sidebar-item">
