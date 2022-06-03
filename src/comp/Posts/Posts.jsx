@@ -3,6 +3,9 @@ import "./posts.css"
 import  Post from "../post/Post"
 import { BrowserView, MobileView } from 'react-device-detect'
 function Posts() {
+  function getScreenWidth() {
+    return window.innerWidth
+  }
   return (
     <>
       <BrowserView>
@@ -16,7 +19,7 @@ function Posts() {
         </div>
       </BrowserView>
       <MobileView>
-        <div className="posts-mobile">
+        <div className="posts-mobile" style={{"maxWidth": getScreenWidth()}}>
             <Post />
             <Post />
             <Post />
