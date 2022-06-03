@@ -27,7 +27,7 @@ function Topbar()
                 </div>
             </BrowserView>
             <MobileView>
-                <div className="top" style={{"display" : "block", "height" : "80", "padding" : 10}}>
+                <div className="top" style={{"display" : "block", "height" : "90", "padding" : 10}}>
                     <div className="top-center">
                         <ul className="top-list">
                             <li className="top-list-item">
