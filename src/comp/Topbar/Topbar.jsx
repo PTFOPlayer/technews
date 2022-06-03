@@ -27,9 +27,8 @@ function Topbar()
                 </div>
             </BrowserView>
             <MobileView>
-                <div className="top" style={{"display" : "block", "height" : "80", "padding" : "5"}}>
-
-                    <div className="top-center" style={{"margin-top" : 10}}>
+                <div className="top" style={{"display" : "block", "height" : "80", "padding" : 10}}>
+                    <div className="top-center">
                         <ul className="top-list">
                             <li className="top-list-item">
                                 <a href ='https://ptfoplayer.github.io/w3/#/home' className="inherit">Główna</a>
