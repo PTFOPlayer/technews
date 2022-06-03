@@ -14,21 +14,6 @@ function Sidebar() {
                 </p>
             </div>
             <div className="sidebar-item">
-                <span className="sidebar-title">Posty</span>
-                <ul className="sidebar-list">
-                    <li className="sidebar-list-item">Post 1</li>
-                    <li className="sidebar-list-item">Post 2</li>
-                    <li className="sidebar-list-item">Post 3</li>
-                    <li className="sidebar-list-item">Post 4</li>
-                    <li className="sidebar-list-item">Post 5</li>
-                    <li className="sidebar-list-item">Post 6</li>
-                    <li className="sidebar-list-item">Post 7</li>
-                    <li className="sidebar-list-item">Post 8</li>
-                    <li className="sidebar-list-item">Post 9</li>
-                    <li className="sidebar-list-item">Post 10</li>
-                </ul>
-            </div>
-            <div className="sidebar-item">
                 <span className="sidebar-title">Social media / Kontakt</span>
                 <div className="sidebar-social">
                     <a href="https://t.me/+NjkWUOdpxWY3ODU8">
@@ -38,12 +23,12 @@ function Sidebar() {
             </div>
             <div className="sidebar-item">
                 <span className="sidebar-title">Lista twórców i osób pomagających budować TechNews</span>
-                <ul className="sidebar-list">
-                    <li className="sidebar-list-item2">Twórca: Patryk "Whisky/PTFOPlayer"</li>
-                    <li className="sidebar-list-item2">Piszący: Patryk "Whisky/PTFOPlayer"</li>
-                    <li className="sidebar-list-item2" style={{"margin-top": 15}}>Telegram: Michał "Wloseczeq"</li>
-                    <li className="sidebar-list-item2" style={{"margin-top": 15}}>Sprawdzanie poprawności i gramatyki:</li>
-                    <li className="sidebar-list-item2">Martyna "Maritrza"</li>
+                <ul className="sidebar-list" style={{"margin-left": 10}}>
+                    <li>Twórca: Patryk "Whisky/PTFOPlayer"</li>
+                    <li>Piszący: Patryk "Whisky/PTFOPlayer"</li>
+                    <li style={{"margin-top": 15}}>Telegram: Michał "Wloseczeq"</li>
+                    <li style={{"margin-top": 15}}>Sprawdzanie poprawności i gramatyki:</li>
+                    <li>Martyna "Maritrza"</li>
                 </ul>
             </div>
         </div>

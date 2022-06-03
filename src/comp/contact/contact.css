@@ -1,0 +1,52 @@
+.contact {
+    flex: 9;
+    display: inline;
+}
+
+.contact-single {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    margin: 20px;
+    padding: 10px;
+    color : #fff;
+    background-color: #242526;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.contactIcon {
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color : #fff;
+    background-color: rgba(255,255,255,.1) ;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    font-family: "Varela Round", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.contact-list {
+    font-family: "Varela Round", sans-serif;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-list-item {
+    margin-top: 20px;
+}
