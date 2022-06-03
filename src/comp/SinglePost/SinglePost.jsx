@@ -13,7 +13,6 @@ function SinglePost() {
                     <h1 className="Single-Post-title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         <div className="Single-Post-edit">
-                            <i className="Single-Post-icon fa fa-edit"></i>
                             <i className="Single-Post-icon fa fa-heart"></i>
                         </div>
                     </h1>
