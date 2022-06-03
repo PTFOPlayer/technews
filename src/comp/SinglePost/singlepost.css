@@ -31,11 +31,7 @@
     cursor: pointer;
 }
 
-.Single-Post-icon:first-child {
-    color: darkblue;
-}
-
-.Single-Post-icon:nth-child(2n) {
+.Single-Post-icon {
     color: red;
 }
 
@@ -52,8 +48,4 @@
     color: #666666;
     font-size: 20px;
     line-height: 1.5;
-}
-.Single-Post-desc::first-letter {
-    text-transform: uppercase;
-    margin-left: 30px;
 }
