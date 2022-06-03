@@ -1,16 +1,31 @@
 import React from 'react'
 import "./posts.css"
 import  Post from "../post/Post"
+import { BrowserView, MobileView } from 'react-device-detect'
 function Posts() {
   return (
-      <div className="posts">
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-      </div>
+    <>
+      <BrowserView>
+        <div className="posts">
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+        </div>
+      </BrowserView>
+      <MobileView>
+        <div className="posts-mobile">
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+        </div>
+      </MobileView>
+    </>
   )
 }
 
