@@ -27,7 +27,7 @@ function Topbar()
                 </div>
             </BrowserView>
             <MobileView>
-                <div className="top" style={{"display" : "block", "height" : 80}}>
+                <div className="top" style={{"display" : "block", "height" : "80", "padding" : "5"}}>
 
                     <div className="top-center" style={{"margin-top" : 10}}>
                         <ul className="top-list">
@@ -40,7 +40,7 @@ function Topbar()
                             </li>
                         </ul>
                     </div>                    
-                    <div className="top-left">
+                    <div className="top-left" style={{"margin-top" : 10}}>
                         <a href="https://t.me/+NjkWUOdpxWY3ODU8">
                             <i className="topIcon fa-brands fa-telegram"></i>
                         </a>
