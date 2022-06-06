@@ -8,7 +8,7 @@ function SinglePost() {
     const location = useLocation();
     const postId = location.pathname.split('/')[2];
     const [posts, setPosts] = useState([]);
-  
+    
     useEffect(() => {
       setPosts(Data);
     }, [])
@@ -41,7 +41,9 @@ function SinglePost() {
     })
 
     const postsParagraphs = posts.map(post => {
-        return post.paragraphs;
+        return post.paragraphs.map(paragraph => {
+            return paragraph;
+        })
     })
     
     const title = postsTitles[index];
@@ -49,27 +51,27 @@ function SinglePost() {
     const date = postsDates[index];
     // eslint-disable-next-line
     const img = postsImg[index];
+    // eslint-disable-next-line
     const paragraphs = postsParagraphs[index];
-
-
+    
 
     return (
         <div className='Single-Post'>
                 <div className="Singe-Post-wrapper">
-                    <img src= {require('./pobrane.png')} 
+                    {img ? <img src= {require(`../../Assets/img/${img}`)} 
                     alt="" 
                     className="Single-Post-img"
-                    />
+                    /> : null}
                     <h1 className="Single-Post-title" >{title}</h1>
                     <div className="Single-Post-info">
                         <span>Autor: <b>{autor}</b></span>
                         <span>Data: <b>{date}</b></span>
                     </div>
-                    {paragraphs.map(paragraph => {
+                    {paragraphs ? paragraphs.map((paragraph, index) => {
                         return (
-                            <p className="Single-Post-desc">{paragraph}</p>
-                        )}
-                    )}
+                            <p key={index} className="Single-Post-paragraph">{paragraph}</p>
+                        )
+                    }) : null}
                 </div>
         </div>
     )
