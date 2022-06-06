@@ -5,17 +5,18 @@ import SinglePost from '../../comp/SinglePost/SinglePost'
 import { BrowserView, MobileView } from 'react-device-detect'
 
 function SinglePostPage() {
+
   return (
     <>
       <BrowserView>
         <div className='SinglePostPage'>
           <Sidebar />  
-          <SinglePost />
+          <SinglePost/>
         </div>
       </BrowserView>
       <MobileView>
         <div className='SinglePostPage'>  
-          <SinglePost />
+          <SinglePost/>
         </div>
       </MobileView>
     </>

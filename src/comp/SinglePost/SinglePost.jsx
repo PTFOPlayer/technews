@@ -1,7 +1,57 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import { useLocation } from 'react-router-dom'
 import './singlepost.css'
+import Data from '../../Assets/data'
 
 function SinglePost() {
+    
+    const location = useLocation();
+    const postId = location.pathname.split('/')[2];
+    const [posts, setPosts] = useState([]);
+  
+    useEffect(() => {
+      setPosts(Data);
+    }, [])
+    
+    function findIndex() {
+        for (let i = 0; i < posts.length; i++) {
+            if ( // eslint-disable-next-line
+                posts[i].id == postId) {
+                return i;
+            }
+        }
+        return 0;
+    }
+    const index = findIndex();
+    
+    const postsTitles = posts.map(post => {
+        return post.title;
+    })
+
+    const postsAutors = posts.map(post => {
+        return post.autor;
+    })
+    
+    const postsDates = posts.map(post => {
+        return post.date;
+    })
+
+    const postsImg = posts.map(post => {
+        return post.img;
+    })
+
+    const postsParagraphs = posts.map(post => {
+        return post.paragraphs;
+    })
+    
+    const title = postsTitles[index];
+    const autor = postsAutors[index];
+    const date = postsDates[index];
+    // eslint-disable-next-line
+    const img = postsImg[index];
+    const paragraphs = postsParagraphs[index];
+
+
 
     return (
         <div className='Single-Post'>
@@ -10,43 +60,16 @@ function SinglePost() {
                     alt="" 
                     className="Single-Post-img"
                     />
-                    <h1 className="Single-Post-title">
-                        GT/GTX 1630 jednak nie 31 maja?
-                        <div className="Single-Post-edit">
-                            <i className="Single-Post-icon fa fa-heart"></i>
-                        </div>
-                    </h1>
+                    <h1 className="Single-Post-title" >{title}</h1>
                     <div className="Single-Post-info">
-                        <span>Autor: <b>Patryk</b></span>
-                        <span>Data: <b>31 maj</b></span>
+                        <span>Autor: <b>{autor}</b></span>
+                        <span>Data: <b>{date}</b></span>
                     </div>
-                    <p className='Single-Post-desc'>
-Dzisiaj mamy 31 maja, a więc miała dzisiaj wyjść nowa karta Nvidii: GT/GTX 1630.
-
-Jednak dzisiaj jej nie zobaczymy, za to zobaczyliśmy wczoraj przeciek o tym że ta karta wychodzi 15 czerwca.
-Przecieki zsą z różnych źródeł więc możemy powątpiewać czy ta karta wyjdzie, chociaż VideoCardz twierdzi że mają oni tabelę z datami na embargo co do spzedaży i recenzji tej karty
-
-Przypomnę tylko że ta karta ma być wydajnościowo taka sama jak GTX 1050TI tylko ma posiadać pamięć GDDR6 
-
-Jeśli natomiast chodzi o karty serii 4000 
-AD104 czyli rdzeń RTX 4070 / 4060TI ma wchodzić w najbliższym czasie do pierwszej fazy testowej czyli umieszczenia rrdzenia na docelowych PCB
-
-Do tego znamy kolejność wypuszczania grafik serii 4000 
-Najpierw wyjdzie 4090 potem 4080 a następnie 4070 i reszta kart
-Wersje TI będą wychodzić dopiero w roku 2023
-
-A teraz do intela 
-13 generacja dostanie jak już wiemy więcej rdzeni bo aż 24 rdzenie i 32 wątki
-Jednak to nie wszystkie upgrady które dostajemy względem 12 gen 
-Zobaczymy tutaj lepszy kontroler pamięci RAM dla pamięci DDR5
-Będzie to 5200Mhz na gear 1 (12 gen posiada 4800Mhz na gear2)
-
-Natomiast przechodząca do ich grafik to jest duże prawdopodobieństwo że niedługo zobaczymy te karty ponieważ ostatnio Intel popełnił błąd i udostępnił stronę ARC z danymi o kartach ARC A3 (najniższa seria), niestety strona zostałą już zdjęta
-
-A jeśli chodzi o AMD i ich ryzen 7000
-Najmocniejszy procesor który udało się wyprodukować AMD z tej generacji pracuje na pojedyńczym rdzeni na 5,8Ghz 
-Co może oznaczać że 5,5Ghz na wszystkich rdzeniach jest bardzo prawdopodobne
-                    </p>
+                    {paragraphs.map(paragraph => {
+                        return (
+                            <p className="Single-Post-desc">{paragraph}</p>
+                        )}
+                    )}
                 </div>
         </div>
     )

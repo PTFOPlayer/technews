@@ -1,49 +1,45 @@
 import React from 'react'
 import { BrowserView, MobileView } from 'react-device-detect'
 import "./post.css"
-function Post() {
+function Post({post}) {
+  const ref = "https://ptfoplayer.github.io/w3/#/post/" + post.id;
+  
   return (
     <>
         <BrowserView>
             <div className="post">
-                <a href="https://ptfoplayer.github.io/w3/#/post/1">
-                <img className="post-image"
-                    src={require("./pobrane.png")}
-                    alt=""/></a>
+                <a href={ref}>
+                {post.img ? <img className="post-image"
+                    src={require(`../../Assets/img/${post.img}`)}
+                    alt=""/>: null} </a>
                 <div className="post-info">
-                    <a style = {{"textDecoration": "none"}}className="post-title" href="https://ptfoplayer.github.io/w3/#/post/1" >
-                        <spam style = {{"textDecoration": "none"}} className = "post-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </spam>
+                    <a style = {{"textDecoration": "none"}}className="post-title" href={ref} >
+                        <spam style = {{"textDecoration": "none"}} className = "post-title">{post.title}</spam>
                     </a>
-                    <span className="post-date">
-                        January 1, 2020
-                    </span>
+                    <span className="post-date">{post.date}</span>
                     <div className="post-cats">
-                        <span className="post-cat">Leak</span>
-                        <span className="post-cat">News</span>
+                        {post.cats.map(cat => (
+                            <span key={cat} className="post-cat">{cat}</span>
+                        ))}
                     </div>
                 </div>
             </div>
         </BrowserView>
         <MobileView>
             <div className="post-mobile">
-                <a href="https://ptfoplayer.github.io/w3/#/post/1">
-                <img className="post-image"
-                    src={require("./pobrane.png")}
-                    alt=""/></a>
+            <a href={ref}>
+                {post.img ? <img className="post-image"
+                    src={require(`../../Assets/img/${post.img}`)}
+                    alt=""/>: null} </a>
                 <div className="post-info">
-                    <a style = {{"textDecoration": "none"}}className="post-title" href="https://ptfoplayer.github.io/w3/#/post/1" >
-                        <spam style = {{"textDecoration": "none"}} className = "post-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </spam>
+                    <a style = {{"textDecoration": "none"}}className="post-title" href={ref} >
+                        <spam style = {{"textDecoration": "none"}} className = "post-title">{post.title}</spam>
                     </a>
-                    <span className="post-date">
-                        January 1, 2020
-                    </span>
+                    <span className="post-date">{post.date}</span>
                     <div className="post-cats">
-                        <span className="post-cat">Leak</span>
-                        <span className="post-cat">News</span>
+                        {post.cats.map(cat => (
+                            <span key={cat} className="post-cat">{cat}</span>
+                        ))}
                     </div>
                 </div>
             </div>

@@ -2,30 +2,26 @@ import React from 'react'
 import "./posts.css"
 import  Post from "../post/Post"
 import { BrowserView, MobileView } from 'react-device-detect'
-function Posts() {
+
+function Posts({posts}) {
   function getScreenWidth() {
     return window.innerWidth
   }
+
   return (
     <>
       <BrowserView>
         <div className="posts">
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+          {posts.map(post => (
+            <Post key={post.id} post={post} />
+          ))}
         </div>
       </BrowserView>
       <MobileView>
         <div className="posts-mobile" style={{"maxWidth": getScreenWidth()}}>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+          {posts.map(post => (
+            <Post key={post.id} post={post} />
+          ))}
         </div>
       </MobileView>
     </>

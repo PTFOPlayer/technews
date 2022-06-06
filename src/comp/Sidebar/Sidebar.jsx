@@ -23,11 +23,11 @@ function Sidebar() {
             </div>
             <div className="sidebar-item">
                 <span className="sidebar-title">Lista twórców i osób pomagających budować TechNews</span>
-                <ul className="sidebar-list" style={{"margin-left": 10}}>
+                <ul className="sidebar-list" style={{"marginLeft": 10}}>
                     <li>Twórca: Patryk "Whisky/PTFOPlayer"</li>
                     <li>Piszący: Patryk "Whisky/PTFOPlayer"</li>
-                    <li style={{"margin-top": 15}}>Telegram: Michał "Wloseczeq"</li>
-                    <li style={{"margin-top": 15}}>Sprawdzanie poprawności i gramatyki:</li>
+                    <li style={{"marginTop": 15}}>Telegram: Michał "Wloseczeq"</li>
+                    <li style={{"marginTop": 15}}>Sprawdzanie poprawności i gramatyki:</li>
                     <li>Martyna "Maritrza"</li>
                 </ul>
             </div>
