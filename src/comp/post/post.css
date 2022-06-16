@@ -1,6 +1,13 @@
 .post {
     width: 390px;
+    height: 430px;
     margin: 0px 25px 40px 25px;
+}
+
+.post:hover {
+    background-color: #242526;
+    border-radius: 8px;
+    color: #fff;
 }
 
 .post-mobile {
@@ -41,6 +48,7 @@
     font-weight: 700;
     margin-top: 15px;
     cursor: pointer;
+    color: inherit;
 }
 
 .post-date {
