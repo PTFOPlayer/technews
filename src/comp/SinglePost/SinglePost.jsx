@@ -49,30 +49,26 @@ function SinglePost() {
     const title = postsTitles[index];
     const autor = postsAutors[index];
     const date = postsDates[index];
-    // eslint-disable-next-line
     const img = postsImg[index];
-    // eslint-disable-next-line
     const paragraphs = postsParagraphs[index];
     
 
     return (
         <div className='Single-Post'>
-                <div className="Singe-Post-wrapper">
-                    {img ? <img src= {require(`../../Assets/img/${img}`)} 
-                    alt="" 
-                    className="Single-Post-img"
-                    /> : null}
-                    <h1 className="Single-Post-title" >{title}</h1>
-                    <div className="Single-Post-info">
-                        <span>Autor: <b>{autor}</b></span>
-                        <span>Data: <b>{date}</b></span>
-                    </div>
-                    {paragraphs ? paragraphs.map((paragraph, index) => {
-                        return (
-                            <p key={index} className="Single-Post-paragraph">{paragraph}</p>
-                        )
-                    }) : null}
+            <div className="Singe-Post-wrapper">
+                {img ? <img src= {require(`../../Assets/img/${img}`)} 
+                alt="" 
+                className="Single-Post-img"
+                /> : null}
+                <h1 className="Single-Post-title" >{title}</h1>
+                <div className="Single-Post-info">
+                    <span>Autor: <b>{autor}</b></span>
+                    <span>Data: <b>{date}</b></span>
                 </div>
+                {paragraphs ? paragraphs.map((paragraph, index) => {
+                    return (<p key={index} className="Single-Post-paragraph">{paragraph}</p>)
+                }) : null}
+            </div>
         </div>
     )
 }
