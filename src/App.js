@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Topbar />
       <Switch>
-        <Route exact path="/home" >   <Home/>             </Route>
+        <Route exact path="/" >       <Home/>             </Route>
         <Route path="/contact">       <ContactPage/>      </Route>
         <Route path="/post/:id">      <SinglePostPage />  </Route>
 
