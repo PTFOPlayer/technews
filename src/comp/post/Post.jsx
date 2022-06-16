@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserView, MobileView } from 'react-device-detect'
 import "./post.css"
 function Post({post}) {
-  const ref = "https://ptfoplayer.github.io/w3/#/post/" + post.id;
+  const ref = "https://ptfoplayer.github.io/technews/#/post/" + post.id;
   
   return (
     <>
