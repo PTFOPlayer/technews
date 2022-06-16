@@ -8,7 +8,7 @@ function Contact() {
                 <span className="contact-title">Ogólny kontakt z nami</span>
                 <ul className="contact-list">
                     <li className="contact-list-item"> Blog na telegramie:
-                        <a href="https://t.me/+NjkWUOdpxWY3ODU8">
+                        <a href="https://t.me/+NjkWUOdpxWY3ODU8" className='contact-ref'>
                             <i className="contactIcon fa-brands fa-telegram"></i>
                         </a>
                     </li>
@@ -25,12 +25,12 @@ function Contact() {
                 <span className="contact-title">Kontakt z twórcami</span>
                 <ul className="contact-list">
                     <li className="contact-list-item"> Twórca: Patryk "Whisky/PTFOPlayer"
-                        <a href="https://t.me/+NjkWUOdpxWY3ODU8">
+                        <a href="https://t.me/+NjkWUOdpxWY3ODU8" className='contact-ref'>
                             <i className="contactIcon fa-brands fa-telegram"></i>
                         </a>
                     </li>
                     <li className="contact-list-item"> Piszący: Patryk "Whisky/PTFOPlayer"
-                        <a href="https://t.me/+NjkWUOdpxWY3ODU8">
+                        <a href="https://t.me/+NjkWUOdpxWY3ODU8" className='contact-ref'>
                             <i className="contactIcon fa-brands fa-telegram"></i>
                         </a>
                     </li>
