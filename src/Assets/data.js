@@ -1,10 +1,10 @@
 function Data(){
         return ( [        
         {
-            id: 0,
+            id: 1,
             autor: "Patryk",
             date: "2020-01-01",
-            title: String("Lorem ipsum dolor sit amet, consectetur adipiscing elit."),
+            title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             img: "pobrane.png",
             cats: ["cat1", "cat2", "cat3"],
             paragraphs:[
@@ -26,7 +26,7 @@ function Data(){
             ]
         },
         {
-            id: 1,
+            id: 0,
             autor: "Patryk",
             date: "2020-01-02",
             title: "Lorem ipsum",
