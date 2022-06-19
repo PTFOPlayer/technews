@@ -8,7 +8,7 @@ function Data(){
             img: "pobrane.png",
             cats: ["cat1", "cat2"],
             paragraphs:[
-                "Qualcomm chce uderzyć w Appla ",
+                "Qualcomm chce uderzyć w Appla \n",
                 "A nawet nie tylko",
                 "Rzucą się oni na cały rynek procesorów z swoimi procesorami desktopowymi i laptopowymi na architekturze ARM, "
                 +"Na razie to tylko założenia producenta ale zobaczymy  co nam czas przyniesie",
@@ -34,10 +34,10 @@ function Data(){
                 "Natomianst jeśli chodzi o 13 gen ",
                 "Okazuje się że procesor I9 13900 (non k) jest aż od 30% do  50% szybszy od I9 12900K " +
                 "a dodatkowo procesor ten jest taktowany tylko na 3,7 GHz co może oznaczać że wydajność ostateczna będzie jeszcze większa."+
-                "Patrząc na to że prawdopodobnie procesor ten będzie taktowany na około 5,5 Ghz to możemy się spodziewać aż do 60%-70% wzrozstu wydajności",
-                "",
-                "A teraz o grafikach intela czyli temacie który ciągnie się od bardzo dawna ",
-                "https://www.intel.com/content/www/us/en/products/sku/227959/intel-arc-a380-graphics/specifications.html",
+                "Patrząc na to że prawdopodobnie procesor ten będzie taktowany na około 5,5 Ghz to możemy się spodziewać aż do 60%-70% wzrozstu wydajności\n"+
+                "\n"+
+                "A teraz o grafikach intela czyli temacie który ciągnie się od bardzo dawna \n"+
+                "https://www.intel.com/content/www/us/en/products/sku/227959/intel-arc-a380-graphics/specifications.html \n"+
                 "Jedyna grafika którą intel udostępnił na swojej stronie to ta z pod linku. "+
                 "Niesty jest to jeden z najniższych modeli, a na wiecej musimy czekać, "+
                 "lecz w chinach można już tą grafikę kupić lecz... jest ona tylko 4% wydajniejsza od RX 6400 jeśli chodzi o rdzeń (przewagę możę mieć w benchmarkach skupiających się na ramie i rdzeniu). " +
