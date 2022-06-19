@@ -13,6 +13,7 @@ function Data(){
                 "Rzucą się oni na cały rynek procesorów z swoimi procesorami desktopowymi i laptopowymi na architekturze ARM, "
                 +"Na razie to tylko założenia producenta ale zobaczymy  co nam czas przyniesie",
                 " ",
+                " ",
                 "Nvidia za ten czas pracuje nad schłodzeniem swoich kart graficznych,"+
                 "Prawdopodobnie RTX 4090 będzie miał 3 wentylatory w modelu referencyjnym ",
                 "",
