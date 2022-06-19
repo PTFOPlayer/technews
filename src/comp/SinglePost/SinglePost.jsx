@@ -66,7 +66,12 @@ function SinglePost() {
                     <span>Data: <b>{date}</b></span>
                 </div>
                 {paragraphs ? paragraphs.map((paragraph, index) => {
-                    return (<p key={index} className="Single-Post-paragraph">{paragraph}</p>)
+                    return (
+                    <>
+                        <h2 key= {index} className="Single-Post-paragraph">{paragraph.title}</h2>
+                        <p key={index} className="Single-Post-paragraph">{paragraph.text}</p>    
+                    </>
+                    )
                 }) : null}
             </div>
         </div>
