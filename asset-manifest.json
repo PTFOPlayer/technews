@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/technews/static/css/main.1e15a74b.css",
-    "main.js": "/technews/static/js/main.b85b5cd1.js",
+    "main.js": "/technews/static/js/main.98174af4.js",
     "static/media/pobrane.png": "/technews/static/media/pobrane.1b736367f95c91462292.png",
     "index.html": "/technews/index.html",
     "main.1e15a74b.css.map": "/technews/static/css/main.1e15a74b.css.map",
-    "main.b85b5cd1.js.map": "/technews/static/js/main.b85b5cd1.js.map"
+    "main.98174af4.js.map": "/technews/static/js/main.98174af4.js.map"
   },
   "entrypoints": [
     "static/css/main.1e15a74b.css",
-    "static/js/main.b85b5cd1.js"
+    "static/js/main.98174af4.js"
   ]
 }
