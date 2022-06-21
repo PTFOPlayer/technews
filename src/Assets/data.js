@@ -18,7 +18,7 @@ function Data(){
                     text: "Zen4 `Phoenix Point` ma mieć zintegrowaną grafikę RDNA3, "+
                 "Natomiast Zen5 `Strix Point` ma posiadać ulepszoną grafikę RDNA3+ i mają one wychodzić w 2024 roku " +
                 "A jeśli chodzi o procesory AMD Zen 4 to co prawda GHZ zostały zwiększone lecz niestety IPC niezbyt, "+
-                "Nowa architektura zyskuje tylko 8% wzrostu IPC przy obniżeniu procesu "+
+                "Nowa architektura zyskuje tylko 8% wzrostu IPC przy obniżeniu procesu. "+
                 "Natomiast jeśli chodzi o RX 6700 który w poprzednim newsie był opisany jako Radeon 6700 " +
                 "Okazuje się że Sapphire a konkretniej leaker z tej firmy który puścił informacje w sieć popełnił po prostu błąd i że grafika ta to RX 6700 (non xt)",
                 },
@@ -32,7 +32,7 @@ function Data(){
                     title: "Natomianst jeśli chodzi o 13 gen Intela",
                     text: "Okazuje się że procesor I9 13900 (non k) jest aż od 30% do  50% szybszy od I9 12900K " +
                     "a dodatkowo procesor ten jest taktowany tylko na 3,7 GHz co może oznaczać że wydajność ostateczna będzie jeszcze większa."+
-                    "Patrząc na to że prawdopodobnie procesor ten będzie taktowany na około 5,5 Ghz to możemy się spodziewać aż do 60%-70% wzrozstu wydajności"
+                    "Patrząc na to że prawdopodobnie procesor ten będzie taktowany na około 5,5 Ghz to możemy się spodziewać aż do 60%-70% wzrozstu wydajności",
                 },
             ]
         }

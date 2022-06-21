@@ -16,9 +16,8 @@ function Sidebar() {
             <div className="sidebar-item">
                 <span className="sidebar-title">Social media / Kontakt</span>
                 <div className="sidebar-social">
-                    <a href="https://t.me/+NjkWUOdpxWY3ODU8">
-                    <i className="sidebarIcon fa-brands fa-telegram"></i>
-                    </a>
+                    <a href="https://t.me/+NjkWUOdpxWY3ODU8"><i className="sidebarIcon fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/PTFOPlayer/technews"><i className="sidebarIcon fab fa-github"></i></a>
                 </div>
             </div>
             <div className="sidebar-item">
@@ -27,8 +26,7 @@ function Sidebar() {
                     <li>Twórca: Patryk "Whisky/PTFOPlayer"</li>
                     <li>Piszący: Patryk "Whisky/PTFOPlayer"</li>
                     <li style={{"marginTop": 15}}>Telegram: Michał "Wloseczeq"</li>
-                    <li style={{"marginTop": 15}}>Sprawdzanie poprawności i gramatyki:</li>
-                    <li>Martyna "Maritrza"</li>
+                    <li style={{"marginTop": 15}}>Sprawdzanie poprawności i gramatyki: Martyna "Maritrza"</li>
                 </ul>
             </div>
         </div>

@@ -24,26 +24,16 @@ function SinglePost() {
     }
     const index = findIndex();
     
-    const postsTitles = posts.map(post => {
-        return post.title;
-    })
+    const postsTitles = posts.map(post => {return post.title;})
 
-    const postsAutors = posts.map(post => {
-        return post.autor;
-    })
+    const postsAutors = posts.map(post => {return post.autor;})
     
-    const postsDates = posts.map(post => {
-        return post.date;
-    })
+    const postsDates = posts.map(post => {return post.date;})
 
-    const postsImg = posts.map(post => {
-        return post.img;
-    })
-
-    const postsParagraphs = posts.map(post => {
-        return post.paragraphs.map(paragraph => {
-            return paragraph;
-        })
+    const postsImg = posts.map(post => {return post.img;})
+    
+    const postsParagraphs = posts.map(post => { 
+        return post.paragraphs.map(paragraph => {return paragraph;})
     })
     
     const title = postsTitles[index];
@@ -52,24 +42,22 @@ function SinglePost() {
     const img = postsImg[index];
     const paragraphs = postsParagraphs[index];
     
-
     return (
         <div className='Single-Post'>
             <div className="Singe-Post-wrapper">
-                {img ? <img src= {require(`../../Assets/img/${img}`)} 
-                alt="" 
-                className="Single-Post-img"
-                /> : null}
+                {img ? <img src= {require(`../../Assets/img/${img}`)} alt="" className="Single-Post-img" /> : null}
                 <h1 className="Single-Post-title" >{title}</h1>
                 <div className="Single-Post-info">
                     <span>Autor: <b>{autor}</b></span>
                     <span>Data: <b>{date}</b></span>
                 </div>
-                {paragraphs ? paragraphs.map((paragraph, index) => {
+                {paragraphs ? paragraphs.map((paragraph) => {
                     return (
                     <>
-                        <h2 key= {index} className="Single-Post-paragraph">{paragraph.title}</h2>
-                        <p key={index} className="Single-Post-paragraph">{paragraph.text}</p>    
+                        {paragraph.title ? <h2 className="Single-Post-paragraph">{paragraph.title}</h2> : null}
+                        {paragraph.text ? <p className="Single-Post-paragraph">{paragraph.text}</p> : null}
+                        {paragraph.img ? <img src= {require(`../../Assets/img/${paragraph.img}`)} alt="" className="Single-Post-img"/> : null}
+                        {paragraph.ref ? <a href={paragraph.ref} className="Single-Post-paragraph">{paragraph.ref}</a> : null}
                     </>
                     )
                 }) : null}
