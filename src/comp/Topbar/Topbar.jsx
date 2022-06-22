@@ -30,7 +30,7 @@ function Topbar()
                     <div className="top-center">
                         <ul className="top-list">
                             <li className="top-list-item">
-                                <a href ='https://ptfoplayer.github.io/technews/#/home' className="inherit">Główna</a>
+                                <a href ='https://ptfoplayer.github.io/technews/#/' className="inherit">Główna</a>
                             </li>
                             <li className="top-list-item">O nas</li>
                             <li className="top-list-item">
@@ -40,7 +40,8 @@ function Topbar()
                     </div>                    
                     <div className="top-left" style={{"margin-top" : 10}}>
                         <a href="https://t.me/+NjkWUOdpxWY3ODU8">
-                            <i className="topIcon fa-brands fa-telegram"></i>
+                            <a href="https://t.me/+NjkWUOdpxWY3ODU8"><i className="topIcon fa-brands fa-telegram"></i></a>
+                            <a href="https://github.com/PTFOPlayer/technews"><i className="topIcon fab fa-github"></i></a>
                         </a>
                     </div>
                 </div>
