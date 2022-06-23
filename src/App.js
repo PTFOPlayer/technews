@@ -10,6 +10,7 @@ import Home from "./Pages/home/Home";
 import Topbar from "./comp/Topbar/Topbar";
 import SinglePostPage from "./Pages/SinglePostPage/SinglePostPage";
 import ContactPage from "./Pages/contact/ContactPage";
+import AboutPage from "./Pages/about/AboutPage";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route exact path="/" >       <Home/>             </Route>
         <Route path="/contact">       <ContactPage/>      </Route>
         <Route path="/post/:id">      <SinglePostPage />  </Route>
-
+        <Route path="/about">         <AboutPage/>        </Route>
       </Switch>
     </Router>
 
