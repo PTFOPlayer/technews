@@ -15,7 +15,7 @@ function Topbar()
                     <div className="top-center">
                         <ul className="top-list">
                             <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/' className="inherit">Główna</a></li>
-                            <li className="top-list-item">O nas</li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/about' className="inherit">O nas</a></li>
                             <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/contact' className="inherit">Kontakt</a></li>
                         </ul>
                     </div>
@@ -30,7 +30,7 @@ function Topbar()
                     <div className="top-center">
                         <ul className="top-list">
                             <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/' className="inherit">Główna</a></li>
-                            <li className="top-list-item">O nas</li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/about' className="inherit">O nas</a></li>
                             <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/contact' className="inherit">Kontakt</a></li>
                         </ul>
                     </div>                    
