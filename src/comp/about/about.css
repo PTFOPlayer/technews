@@ -15,11 +15,11 @@
     padding: 10px;
     color : #fff;
     background-color: rgba(36, 37, 38, 1);
-    max-width: 20%;
+    max-width: 355px;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    max-height: 40%;
+    max-height: 450px;
 }
 
 .about-title {
