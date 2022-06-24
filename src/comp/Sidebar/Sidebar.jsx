@@ -14,7 +14,7 @@ function Sidebar() {
                 </p>
             </div>
             <div className="sidebar-item">
-                <span className="sidebar-title">Social media / Kontakt</span>
+                <span className="sidebar-title">Social media</span>
                 <div className="sidebar-social">
                     <a href="https://t.me/+NjkWUOdpxWY3ODU8"><i className="sidebarIcon fa-brands fa-telegram"></i></a>
                     <a href="https://github.com/PTFOPlayer/technews"><i className="sidebarIcon fab fa-github"></i></a>
