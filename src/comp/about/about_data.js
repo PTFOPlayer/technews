@@ -2,7 +2,7 @@ function about_data(){
     return([
         {
             title:"Ogółem o nas",
-            paragraph: "Jesteśmy grópą osób interesujących się nowinkami w świecie technologii. Stwozryliśmy ten blog aby dzielić się z ludźmi newsami "+
+            paragraph: "Jesteśmy grupą osób interesujących się nowinkami w świecie technologii. Stwozryliśmy ten blog aby dzielić się z ludźmi newsami "+
             "i przeciekami o których my sami usłyszeliśmy lub/i które znaleźliśmy."
         },
         {

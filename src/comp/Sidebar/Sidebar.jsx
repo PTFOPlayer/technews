@@ -6,7 +6,7 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar-item">
                 <span className="sidebar-title">O TechNews</span>
-                <p>
+                <p className="sidebar-text">
                     TechNews to blog o nowinkach technologicznych i przeciekach. Skupiamy się na pisaniu o tematach z branży PC
                     które są w zasięgu ręki każdego entuzjasty komputerowego, oraz staramy się przybliżyć tematy 
                     które są bardziej odległe międziy innymi, świat SBC i innych minikomputerów, świat serwerów i świat 
