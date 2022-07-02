@@ -14,7 +14,7 @@ function Contact() {
                 <li className="contact-list-item"> Email:
                     <div style={{"display" : "flex"}}>
                         <i className="contactIcon fa-solid fa-envelope"></i>
-                        <span className="contact-email" style={{"marginTop" : 20}}>temp@mail.mail</span>    
+                        <span className="contact-email" style={{"marginTop" : 20}}>narazie nie ma</span>    
                     </div>
                 </li>
             </ul>

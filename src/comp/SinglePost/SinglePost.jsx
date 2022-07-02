@@ -56,7 +56,7 @@ function SinglePost() {
                     <>
                         {paragraph.title ? <h2 className="Single-Post-paragraph">{paragraph.title}</h2> : null}
                         {paragraph.text ? <p className="Single-Post-paragraph">{paragraph.text}</p> : null}
-                        {paragraph.img ? <img src= {require(`../../Assets/img/${paragraph.img}`)} alt="" className="Single-Post-img"/> : null}
+                        {paragraph.img ? <img src= {require(`../../Assets/img/${paragraph.img}`)} alt="" className="Single-Post-img-2"/> : null}
                         {paragraph.ref ? <a href={paragraph.ref} className="Single-Post-paragraph">{paragraph.ref}</a> : null}
                     </>
                     )
