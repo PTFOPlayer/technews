@@ -1,6 +1,6 @@
 {
   "homepage": "https://PTFOPlayer.github.io/technews/#/",
-  "name": "w3",
+  "name": "technews",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
