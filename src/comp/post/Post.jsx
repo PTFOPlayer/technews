@@ -14,7 +14,7 @@ function Post({post}) {
                     alt=""/>: null} </a>
                 <div className="post-info">
                     <a style = {{"textDecoration": "none"}}className="post-title" href={ref} >
-                        <spam style = {{"textDecoration": "none"}} className = "post-title">{post.title}</spam>
+                        <p style = {{"textDecoration": "none"}} className = "post-title">{post.title}</p>
                     </a>
                     <span className="post-date">{post.date}</span>
                     <div className="post-cats">
@@ -33,7 +33,7 @@ function Post({post}) {
                     alt=""/>: null} </a>
                 <div className="post-info">
                     <a style = {{"textDecoration": "none"}}className="post-title" href={ref} >
-                        <spam style = {{"textDecoration": "none"}} className = "post-title">{post.title}</spam>
+                        <p style = {{"textDecoration": "none"}} className = "post-title">{post.title}</p>
                     </a>
                     <span className="post-date">{post.date}</span>
                     <div className="post-cats">

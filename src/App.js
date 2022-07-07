@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   HashRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 
@@ -16,12 +16,12 @@ function App() {
   return (
     <Router>
       <Topbar />
-      <Switch>
-        <Route exact path="/" >       <Home/>             </Route>
-        <Route path="/contact">       <ContactPage/>      </Route>
-        <Route path="/post/:id">      <SinglePostPage />  </Route>
-        <Route path="/about">         <AboutPage/>        </Route>
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<Home />}>          </Route>
+        <Route path="/contact" element={<ContactPage/>}>           </Route>
+        <Route path="/post/:id" element={<SinglePostPage /> }>       </Route>
+        <Route path="/about" element={<AboutPage/>}>               </Route>
+      </Routes>
     </Router>
 
   );
