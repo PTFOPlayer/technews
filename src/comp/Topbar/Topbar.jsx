@@ -14,9 +14,9 @@ function Topbar()
                     </div>
                     <div className="top-center">
                         <ul className="top-list">
-                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/' className="inherit">Główna</a></li>
-                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/about' className="inherit">O nas</a></li>
-                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/contact' className="inherit">Kontakt</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/' className="inherit">Główna</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/about' className="inherit">O nas</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/contact' className="inherit">Kontakt</a></li>
                         </ul>
                     </div>
                     <div className="top-right">
@@ -29,9 +29,9 @@ function Topbar()
                 <div className="top" style={{"display" : "block", "height" : "fit-content", "padding" : 10}}>
                     <div className="top-center">
                         <ul className="top-list">
-                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/' className="inherit">Główna</a></li>
-                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/about' className="inherit">O nas</a></li>
-                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/contact' className="inherit">Kontakt</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/' className="inherit">Główna</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/about' className="inherit">O nas</a></li>
+                            <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/contact' className="inherit">Kontakt</a></li>
                         </ul>
                     </div>                    
                     <div className="top-left" style={{"margin-top" : 10}}>
