@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -17,10 +17,10 @@ function App() {
     <Router>
       <Topbar />
       <Routes>
-        <Route exact path="/technews/" element={<Home />} />
-        <Route exact path="/technews/contact" element={<ContactPage/>} />
-        <Route exact path="/technews/post/:id" element={<SinglePostPage />} />
-        <Route exact path="/technews/about" element={<AboutPage/>} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/contact" element={<ContactPage/>} />
+        <Route exact path="/post/:id" element={<SinglePostPage />} />
+        <Route exact path="/about" element={<AboutPage/>} />
       </Routes>
     </Router>
   );
