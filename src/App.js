@@ -18,9 +18,9 @@ function App() {
       <Topbar />
       <Routes>
         <Route exact path="/technews/" element={<Home />} />
-        <Route path="/technews/contact" element={<ContactPage/>} />
-        <Route path="/technews/post/:id" element={<SinglePostPage />} />
-        <Route path="/technews/about" element={<AboutPage/>} />
+        <Route exact path="/technews/contact" element={<ContactPage/>} />
+        <Route exact path="/technews/post/:id" element={<SinglePostPage />} />
+        <Route exact path="/technews/about" element={<AboutPage/>} />
       </Routes>
     </Router>
   );
