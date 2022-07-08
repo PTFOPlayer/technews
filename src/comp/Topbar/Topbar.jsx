@@ -19,14 +19,11 @@ function Topbar()
                             <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/contact' className="inherit">Kontakt</a></li>
                         </ul>
                     </div>
-                    <div className="top-right">
-                        <ul className="top-list">
-                        </ul>
-                    </div>
+                    <div className="top-right" />
                 </div>
             </BrowserView>
             <MobileView>
-                <div className="top">
+                <div className="top" style={{"display" : "block", "height" : "fit-content", "padding" : 10}}>
                     <div className="top-center">
                         <ul className="top-list">
                             <li className="top-list-item"><a href ='https://ptfoplayer.github.io/technews/#/' className="inherit">Główna</a></li>

@@ -6,12 +6,11 @@ function Post({post}) {
     const ref = "https://ptfoplayer.github.io/technews/#/post/" + post.id;
 
     const content = (check) => {
-        
+
         let cN = String()
-        if (check === "mobile")
-        {
+        if (check === "mobile") {
             cN = "post-mobile"
-        } else if (check === "browser"){
+        } else if (check === "browser") {
             cN = "post"
         }
 
