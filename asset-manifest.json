@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/technews/static/css/main.eb241979.css",
-    "main.js": "/technews/static/js/main.b39d452b.js",
+    "main.js": "/technews/static/js/main.e045f1cd.js",
     "static/media/oldAmd.png": "/technews/static/media/oldAmd.869a1205fb07dc96fdf7.png",
     "static/media/mobile16c.png": "/technews/static/media/mobile16c.625428d13e962c3cbc32.png",
     "static/media/4090.png": "/technews/static/media/4090.200b6f214ea2133bbee0.png",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.eb241979.css",
-    "static/js/main.b39d452b.js"
+    "static/js/main.e045f1cd.js"
   ]
 }
