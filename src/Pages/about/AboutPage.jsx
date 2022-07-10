@@ -1,27 +1,28 @@
 import React from 'react'
 import './aboutpage.css'
-import { BrowserView, MobileView } from 'react-device-detect'
+import {UserAgentProvider, UserAgent} from '@quentin-sommer/react-useragent'
 import Header from '../../comp/Header/Header'
 import Sidebar from '../../comp/Sidebar/Sidebar'
 import About from '../../comp/about/About'
+
 function AboutPage() {
   return (
-    <>
-      <BrowserView>
+    <UserAgentProvider ua={window.navigator.userAgent}>
+      <UserAgent computer>
         <Header />
         <div className="aboutPage">
           <Sidebar />
           <About/>
         </div>
-      </BrowserView>
+      </UserAgent>
 
-      <MobileView>
+      <UserAgent mobile>
         <div className="aboutPage">
           <About/>
         </div>
         <Sidebar />
-      </MobileView>
-    </>
+      </UserAgent>
+    </UserAgentProvider>
   )
 }
 

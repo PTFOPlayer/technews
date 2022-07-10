@@ -3,25 +3,25 @@ import './contactpage.css'
 import Contact from '../../comp/contact/Contact'
 import Sidebar from '../../comp/Sidebar/Sidebar'
 import Header from '../../comp/Header/Header'
-import { BrowserView, MobileView } from 'react-device-detect'
+import {UserAgentProvider, UserAgent} from '@quentin-sommer/react-useragent'
 
 function ContactPage() {
   return (
-    <>
-      <BrowserView>
+    <UserAgentProvider ua={window.navigator.userAgent}>
+      <UserAgent computer>
         <Header/>
         <div className="contactPage">
           <Sidebar />
           <Contact />
         </div>
-      </BrowserView>
-      <MobileView>
+      </UserAgent>
+      <UserAgent mobile>
         <div className="contactPage">
           <Contact />
         </div>
         <Sidebar />
-      </MobileView>
-    </>
+      </UserAgent>
+    </UserAgentProvider>
   )
 }
 

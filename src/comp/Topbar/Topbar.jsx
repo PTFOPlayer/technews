@@ -1,12 +1,12 @@
 import React from "react";
 import "./topbar.css";
-import {BrowserView, MobileView} from 'react-device-detect';
+import {UserAgentProvider, UserAgent} from '@quentin-sommer/react-useragent'
 
 function Topbar()
 {
     return (
-        <>
-            <BrowserView>
+        <UserAgentProvider ua={window.navigator.userAgent}>
+            <UserAgent computer>
                 <div className="top">
                     <div className="top-left">
                         <a href="https://t.me/+NjkWUOdpxWY3ODU8"><i className="topIcon fa-brands fa-telegram"></i></a>
@@ -21,8 +21,8 @@ function Topbar()
                     </div>
                     <div className="top-right" />
                 </div>
-            </BrowserView>
-            <MobileView>
+            </UserAgent>
+            <UserAgent mobile>
                 <div className="top" style={{"display" : "block", "height" : "fit-content", "padding" : 10}}>
                     <div className="top-center">
                         <ul className="top-list">
@@ -36,8 +36,8 @@ function Topbar()
                         <a href="https://github.com/PTFOPlayer/technews"><i className="topIcon fab fa-github"></i></a>
                     </div>
                 </div>
-            </MobileView>
-        </>
+            </UserAgent>
+        </UserAgentProvider>
     );
 }
 

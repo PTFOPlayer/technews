@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserView, MobileView } from 'react-device-detect'
+import {UserAgentProvider, UserAgent} from '@quentin-sommer/react-useragent'
 import "./post.css"
 
 function Post({post}) {
@@ -36,14 +36,14 @@ function Post({post}) {
     }
 
     return (
-    <>
-        <BrowserView>
+    <UserAgentProvider ua={window.navigator.userAgent}>
+        <UserAgent computer>
             {content("browser")}
-        </BrowserView>
-        <MobileView>
+        </UserAgent>
+        <UserAgent mobile>
             {content("mobile")}
-        </MobileView>
-    </>
+        </UserAgent>
+    </UserAgentProvider>
     )
 }
 
