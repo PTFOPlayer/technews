@@ -7,6 +7,7 @@ function SinglePost() {
     
     const location = useLocation();
     const postId = location.pathname.split('/')[2];
+    const postIdInt = Number(postId)
     const [posts, setPosts] = useState([]);
     
     useEffect(() => {
@@ -15,8 +16,8 @@ function SinglePost() {
     
     function findIndex() {
         for (let i = 0; i < posts.length; i++) {
-            if ( // eslint-disable-next-line
-                posts[i].id == postId) {
+            if ( 
+                posts[i].id === postIdInt) {
                 return i;
             }
         }
