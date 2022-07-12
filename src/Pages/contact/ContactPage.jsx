@@ -7,21 +7,25 @@ import {UserAgentProvider, UserAgent} from '@quentin-sommer/react-useragent'
 
 function ContactPage() {
   return (
-    <UserAgentProvider ua={window.navigator.userAgent}>
-      <UserAgent computer>
-        <Header/>
-        <div className="contactPage">
+    <div> 
+      <UserAgentProvider ua={window.navigator.userAgent}>
+        <UserAgent computer>
+          <Header/>
+          <div className="contactPage">
+            <Sidebar />
+            <Contact />
+          </div>
+        </UserAgent>
+      </UserAgentProvider>
+      <UserAgentProvider ua={window.navigator.userAgent}>
+        <UserAgent mobile>
+          <div className="contactPage">
+            <Contact />
+          </div>
           <Sidebar />
-          <Contact />
-        </div>
-      </UserAgent>
-      <UserAgent mobile>
-        <div className="contactPage">
-          <Contact />
-        </div>
-        <Sidebar />
-      </UserAgent>
-    </UserAgentProvider>
+        </UserAgent>
+      </UserAgentProvider>
+    </div>
   )
 }
 

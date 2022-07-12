@@ -14,23 +14,26 @@ function Home() {
   }, [])
 
   return (
-    <UserAgentProvider ua={window.navigator.userAgent}>
-      <UserAgent computer>
-        <Header />
-        <div className="home">
-            <Sidebar />
-            <Posts posts={posts} />
-        </div>
-      </UserAgent>
-      
-      <UserAgent mobile>
-        <Header />
-        <div className="home">
-            <Posts posts={posts}/>
-        </div>
-        <Sidebar />
-      </UserAgent>
-    </UserAgentProvider>
+    <div>
+      <UserAgentProvider ua={window.navigator.userAgent}>
+        <UserAgent computer>
+          <Header />
+          <div className="home">
+              <Sidebar />
+              <Posts posts={posts} />
+          </div>
+        </UserAgent>
+      </UserAgentProvider>
+      <UserAgentProvider ua={window.navigator.userAgent}>
+        <UserAgent mobile>
+          <Header />
+          <div className="home">
+              <Posts posts={posts}/>
+          </div>
+          <Sidebar />
+        </UserAgent>
+      </UserAgentProvider>
+    </div>
   )
 }
 
