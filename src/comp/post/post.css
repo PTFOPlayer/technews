@@ -1,6 +1,6 @@
 .post {
     width: 390px;
-    max-height: 500px;
+    max-height: fit-content;
     margin: 0px 25px 40px 25px;
 }
 

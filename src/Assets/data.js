@@ -1,5 +1,39 @@
 function Data(){
-        return ( [     
+        return ( [  
+        {
+            id: 3,
+            autor: "Patryk",
+            date: "sobota 23 lipca 2022",
+            title: "Intel ma mieć trzeci typ rdzenia, Nvidia zmniejsza ceny oraz ogromne skoki wydajności w następnych generacjach",
+            img: "intel3core.png",
+            cats: ["Leak"],
+            paragraphs:[
+                {
+                    title:"14 gen intela z trzema typami rdzenia?",
+                    text:"Wyciekł schemat poglądowy mobilnych procesorów Intela 14 gen a z niego dowiadujemy się bardzo ciekawych rzeczy. Głównie tego że możemy się spodziewać trzeciego typu rdzenia który ma się nazywać LP E-core, czyli po prostu rdzeń energooszczędny czy też niskiego poboru. Po tym przecieku możemy się spodziewać w procesorach Intela rozwiązań które nam zaprezentował już ARM, prawdopodobnie nie zostaniemy na tylko dwóch typach rdzeni w jednym procesorze tylko procesory będą miały wiele poziomów przykłądowo dla teoretycznego procesora 10 rdzeniowego mogło by to być 2 rdzenie P do tego 4 rdzenie E i na koniec 4 rdzenie LP. Miło by było równierz z strony microsoftu żeby zoptymalizowałe scheduller windowsa tak aby ten starał się wykorzystywać same rdzenie E i LP żeby rdzenie P zostawały w pełni dla użytkownika.",
+                    img: "intel3core.png"
+                },
+                {
+                    title:"Intel Innovation",
+                    text: "Intel Innovation event to event intela na którym są zapowiadane nowe produkty firmy. Całość ma się odbyć 27 i 28 sierpnia i prawdopdoobnie zostaną wtedy zapowiedziane procesory 13 gen",
+
+                },
+                {
+                    title:"Nvidia zmniejsza ceny?",
+                    text:"Tak ale nie do końca ponieważ dotyczy to tylko modeli od 3080 w górę ale są to dość duże cięcia bo od 200 do 500 dolarów."
+                },
+                {
+                    title:"Ryzen 5 serii 7000 dogania 12 rdzeniowca? ",
+                    text:"Tak dogania a nawet po OC wyprzedza posiadając tylko 6 rdzeni i 12 wątków. Z bazy bemcharków BaseMark wyciekły wyniki tego procesora i jego porównanie z Ryzenem 5900X. Jeżeli ostateczna wersja tego procesora będzie miała takie osiągi i AMD nie podniesie znów cen to Intel może mieć się czego obawiać lecz oni też mają coś ciekawego w zanadrzu. ",
+                    img:"r57600.png"
+                },
+                {
+                    title:"W poprzednim paragrafie było o tym że Ryzen 5 wyprzedza Ryzena 9? To przeczytajcie o tym",
+                    text: "I5 13600K czyli topowa I5 13 generacji ma mieć aż 14 rdzeni i 20 wątków, jest to 6 rdzeni P i 8 rdzeni E gdzie rdzenie P działały na 5,1GHz a rdzenie E na 3,5GHz. W benchmarku Geekbench5 osiągnął ten procesor aż 2012pkt Single Core i 16054 pkt Multi Core, czyli porównując go do I5 12600K to jest 8% szybszy w pojedyńczym rdzeniu i 38% szybszy zadaniach wielordzeniowych. A jeżeli go porównamy do Ryzena 9 5950X to dowiemy się że w pojedyńczym rdzeniu wyprzedza go aż o 20% a w benchmarku wielowątkowym różnica jest kwestią błędu pomiarowego bo wynosi tylko 2% na niekorzyść I5. Do tego benchmark był wykonywany na windowsie 10 czyli systemie niekorzystym dla I5 czyli na windowsie 11 ten procesor może się okazać szybszy od Ryzena 5950X. Jeżeli I5 ma pokonywać 16 rdzeniowca konkurencji to AMD może mieć spory problem w serii 7000",
+                    img:"i513600k.png"
+                }
+            ]
+        },  
         {
             id: 2,
             autor: "Patryk",
