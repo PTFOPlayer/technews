@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/technews/static/css/main.5299f18b.css",
-    "main.js": "/technews/static/js/main.9fb4a7db.js",
+    "main.js": "/technews/static/js/main.1b8523fa.js",
     "static/media/12genprez.png": "/technews/static/media/12genprez.e6ea0b3ebb9dbd118a2b.png",
     "static/media/oldAmd.png": "/technews/static/media/oldAmd.869a1205fb07dc96fdf7.png",
     "static/media/intel3core.png": "/technews/static/media/intel3core.9946e5758edac6907b2b.png",
@@ -9,13 +9,16 @@
     "static/media/mobile16c.png": "/technews/static/media/mobile16c.625428d13e962c3cbc32.png",
     "static/media/i513600k.png": "/technews/static/media/i513600k.b8bd809102c43ef1e31b.png",
     "static/media/4090.png": "/technews/static/media/4090.200b6f214ea2133bbee0.png",
+    "static/media/thebeast.png": "/technews/static/media/thebeast.691c29c21afa11539122.png",
     "static/media/pobrane.png": "/technews/static/media/pobrane.1b736367f95c91462292.png",
+    "static/media/i7d5d4.png": "/technews/static/media/i7d5d4.2799a32c10b87f49f229.png",
+    "static/media/4070ti.png": "/technews/static/media/4070ti.bbbcf97a82bb10ac040b.png",
     "static/media/rtx4000spec.png": "/technews/static/media/rtx4000spec.504bbab8bf7112722636.png",
     "static/media/nzen3d.png": "/technews/static/media/nzen3d.8414a984592e3e101b63.png",
     "index.html": "/technews/index.html"
   },
   "entrypoints": [
     "static/css/main.5299f18b.css",
-    "static/js/main.9fb4a7db.js"
+    "static/js/main.1b8523fa.js"
   ]
 }
