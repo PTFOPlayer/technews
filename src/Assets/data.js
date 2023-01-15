@@ -1,5 +1,42 @@
 function Data(){
-        return ( [  
+        return ( [
+        {
+            id: 4,
+            autor: "Patryk",
+            date: "wtorek 2 sierpnia 2022",
+            title: "Intel 13 gen lepsze z DDR5, seria Sapphire Rapids wyciekła, Ryzeny 7000 mają ogromne pobory mocy a Nvidia ma jedną 800W kartę do pokonania wszystkich.",
+            img: "i7d5d4.png",
+            cats: ["Leak"],
+            paragraphs: [
+                {
+                    title: "Intel 13 gen będzie zyskiwało na wydajnośći po zastosowaniu pamięci DDR5",
+                    text:"W ciągu paru ostatnich dni wyciekło parę benchmarków procesorów 13 gen z pamięciami DDR5 i DDR4. Okazuje się że I7 13700K zyskuje aż 20% dodatkowej wydajności i I5 13600K aż 10%.",
+                    img:"i7d5d4.png"
+                },
+                {
+                    title:"A jak 13 gen w grach?",
+                    text: "Benchmarki wykonał 'Extreane Player' z 'bili bili' (nie do końca wiem co to jest ale to jedyne źródło) testując i5 13600K i I7 13700K w wersjach ES/QS. Różnice w wydajności dla I5 13600K wzgledem I5 12600K wynoszą nawet 11% na korzyść nowej generacji, natomiast w porównaniu DDR4 vs DDR5 w 13 gen rożnica wynosi jedynie 1-3%"
+                },
+                {
+                    title: "Specyfikacja Sapphire rappids wyciekła",
+                    text:"Specyfikacja procesorów serwerowych i do work-stacji wyciekła. Seria Sapphire rappids której premiera jest odsuwana od dłuższego czasu rozciąga się aż na 9 procesorów zaczynając od 12 rdzeniowych aż po 56 rdzeniowe (wszędzie zobaczymy hyper threading więc aż do 112 wątków), do tego każdy z tych procesorów ma aż 8 kanałową pamięć i 112 linii PCI-e 5 gen. Ich specyfikacje wyglądają następująco: będą istniały 2 procesory 12 rdzeniowe, Xeon W5-3423 i W5-3425, mają one odpowiednio 2,1 i 3,1 GHz. Przenosząc się półkę wyżej zobaczymy procesory W5-3433 i W5-3435X które reprezentują 16 rdzeniowce taktowane odpowiednio na 2,0 Ghz i 3,1 Ghz. Idąc wyżej widzimy model 20 rdzeniwy W7-3445 taktowany na 2,6Ghz, model 24 rdzeniowy W7-3455 taktowany na 2,5Ghz i model 28 rdzeniowy W7-3465X taktowany na 2,5Ghz. Na sam koniec zostyają dwa najwyższe modele czyli W9-3475X który jest procesorem 36 rdzeniowym taktowanym na 2,2Ghz i ostatni najmocniejszy procesor tej serii W9-2495X taktowany na 1,9Ghz. Jak widzicie cała seria ma dość niskie taktowania a to ponieważ są to taktowania bazowe, a taktowań turbo niestety nie znamy. Procesory te mają zastąpić wcześniejszą serię X procesorów Intela. "
+                },
+                {
+                    title: "Czyżby intel nie jedyny miał problemy z poborami mocy?",
+                    text: "AMD prawdopdobnie ma na niższych procesach technologicznych podobne problemy co Intel. Ich cała seria ma mieć TDP bazowe na poziomie... 170W. Czyli aż o 65 W więcej niż poprzednie generacje, dodatkowo nie mówimy tutaj tylko o ryzenie 9 16 rdzeniowym ale o 12 rdzeniowej opcji. Dodatkowo ponieważ to jest TDP bazowe a AMD potrafiło masywnie je przekraczać podczas turbo to ten procesor może spokojnie  przekraczać aż 300W TDP w turbo."
+                },
+                {
+                    title: "Najwydajniejsza karta na świecie znów od Nvidii?",
+                    text: "Na to wygląda, ponieważ znany leaker kopite7kimi ostatnio opublikował przeciek o potworze od Nvidii który ma porzerać aż 800W. Karta ta ma mieć 18 176 rdzeni FP32 i aż 48Gb pamięci GDDR6X o predkości 24Gbps. Napewno będzie to potężna karta ale nie wiemy czy będzie to 4090TI  czy jakiś Titan ale wiemy napewno że nowe 12 pinowe złącze do zasilanai kart napewno nie wystarczy i będzie się pojawiało w ilości sztuk dwóch",
+                    img:"thebeast.png"
+                },
+                {
+                    title:"A co z zwykłymi kartami od Nvidii?",
+                    text:"Mamy przeciek znów od kopite7kimi który twierdzi że 4070TI ma mieć wydajność aż 3090TI, był by to wyższy skok wydajności niż przy przejściu z serii GTX 900 na 1000. To czy to jest 4070TI możemy się tylko domyślać po nazwie rdzenia, lecz jeżeli przypuszczenia są prawdziwe to jeśli podobne wzrosty są na całej serii 4000 względem serii 3000 to taki przykładowy RTX 4050 może mieć wydajność pomiędzy 3060 a 3060TI. Wracając do karty z przecieku to ma ona mieć 12Gb pamięci GDDR6X o przepustowości 21Gbps oraz 7680 rdzeni FP32, natomiast jedną wadę tej karty widzimy po przeczytaniu pierwszego zdania z przecieku a jest to TDP które ma wynosić aż 400W. Oznacza to że cała następna seria GPU od nvidii będzie bardzo prądożerna.",
+                    img:"4070ti.png"
+                }
+            ]
+        },
         {
             id: 3,
             autor: "Patryk",
