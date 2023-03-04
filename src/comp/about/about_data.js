@@ -12,10 +12,6 @@ function about_data(){
         {
             title: "O osobie odpowiedzialnej za kanał na telegramie",
             paragraph: "Michał 'Wloseczeq' odpowiada za nasz kanał na Telegramie, co prawda jest on tylko i wyłącznie moderatorem lecz bez jego pomocy 'Technews' nie był by tak rozwinięty"
-        },
-        {
-            title: "O tym jak utrzymujemy gramatyke na poziomie",
-            paragraph: "Martyna'Martirza' może i nie zainteresowana technologią i nowinkami w tej dziedzinie ale pomaga popzez sprawdzanie ortografii, gramatyki oraz interpunkcji w naszych postach."
         }
     ])
 }

@@ -26,7 +26,6 @@ function Sidebar() {
                     <li>Twórca: Patryk "Whisky/PTFOPlayer"</li>
                     <li>Piszący: Patryk "Whisky/PTFOPlayer"</li>
                     <li style={{"marginTop": 15}}>Telegram: Michał "Wloseczeq"</li>
-                    <li style={{"marginTop": 15}}>Sprawdzanie poprawności i gramatyki: Martyna "Maritrza"</li>
                 </ul>
             </div>
         </div>
