@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/technews/static/css/main.f4600718.css",
-    "main.js": "/technews/static/js/main.1b8523fa.js",
+    "main.css": "/technews/static/css/main.e6c94209.css",
+    "main.js": "/technews/static/js/main.369831ee.js",
     "static/media/12genprez.png": "/technews/static/media/12genprez.e6ea0b3ebb9dbd118a2b.png",
     "static/media/oldAmd.png": "/technews/static/media/oldAmd.869a1205fb07dc96fdf7.png",
     "static/media/intel3core.png": "/technews/static/media/intel3core.9946e5758edac6907b2b.png",
@@ -15,10 +15,12 @@
     "static/media/4070ti.png": "/technews/static/media/4070ti.bbbcf97a82bb10ac040b.png",
     "static/media/rtx4000spec.png": "/technews/static/media/rtx4000spec.504bbab8bf7112722636.png",
     "static/media/nzen3d.png": "/technews/static/media/nzen3d.8414a984592e3e101b63.png",
-    "index.html": "/technews/index.html"
+    "index.html": "/technews/index.html",
+    "main.e6c94209.css.map": "/technews/static/css/main.e6c94209.css.map",
+    "main.369831ee.js.map": "/technews/static/js/main.369831ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4600718.css",
-    "static/js/main.1b8523fa.js"
+    "static/css/main.e6c94209.css",
+    "static/js/main.369831ee.js"
   ]
 }
